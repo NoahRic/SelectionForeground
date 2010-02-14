@@ -83,7 +83,7 @@ namespace SelectionForeground
             if (spans == null || spans.Count == 0)
                 yield break;
 
-            ITextSnapshot snapshot = spans[0].Snapshot;
+            ITextSnapshot snapshot = _currentSpans[0].Snapshot;
 
             spans = new NormalizedSnapshotSpanCollection(spans.Select(s => s.TranslateTo(snapshot, SpanTrackingMode.EdgeExclusive)));
 

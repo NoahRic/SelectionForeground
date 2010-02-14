@@ -1,0 +1,1 @@
+This is an extension for Visual Studio 2010 that allows the user to set the selection foreground color, as in Visual Studio 2008 and previous versions.  An item is provided in the Fonts and Colors dialog, "Selection Foreground", for customizing the color (white is the default).

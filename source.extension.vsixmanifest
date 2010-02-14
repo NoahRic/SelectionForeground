@@ -7,6 +7,8 @@
     <Description xml:space="preserve">This extension allows the user to customize the selection foreground color.</Description>
     <Locale>1033</Locale>
     <MoreInfoUrl>http://blogs.msdn.com/noahric</MoreInfoUrl>
+    <License>ms-pl.txt</License>
+    <PreviewImage>screenshot.png</PreviewImage>
     <SupportedProducts>
       <VisualStudio Version="10.0">
         <Edition>Pro</Edition>
